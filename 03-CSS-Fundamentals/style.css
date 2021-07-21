@@ -7,11 +7,13 @@ body {
   color: #444;
   border-top: 10px solid #1098ad;
   margin: 0;
+  position: relative;
 }
 
 .container {
   margin: 0 auto;
   width: 700px;
+  /* position: relative; */
 }
 
 .main-header {
@@ -38,6 +40,11 @@ aside {
 article {
   margin-bottom: 60px;
 }
+
+aside {
+  margin: 0 auto;
+}
+
 .post-header {
   margin-bottom: 40px;
 }
@@ -152,4 +159,14 @@ nav a:link {
 
 nav a:link:last-child {
   margin-right: 0;
+}
+
+.like-button {
+  border: none;
+  font-size: 22px;
+  padding: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
 }
