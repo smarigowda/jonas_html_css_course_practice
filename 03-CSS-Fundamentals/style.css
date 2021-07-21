@@ -66,8 +66,21 @@ h1 {
 }
 
 h2 {
+  position: relative;
   font-size: 40px;
   margin-bottom: 30px;
+}
+
+h2::after {
+  content: "TOP";
+  color: #000;
+  background-color: #ffe70e;
+  padding: 7px;
+  font-size: 16px;
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  right: -25px;
 }
 
 h3 {
