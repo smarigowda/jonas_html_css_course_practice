@@ -16,12 +16,8 @@ body {
 
 .main-header {
   background-color: #f7f7f7;
-  /* padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
 }
 
 .main-header-container {
@@ -84,7 +80,8 @@ p {
   margin-bottom: 15px;
 }
 
-ul,ol {
+ul,
+ol {
   margin-left: 50px;
   margin-bottom: 20px;
 }
@@ -145,4 +142,14 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+nav a:link {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }
