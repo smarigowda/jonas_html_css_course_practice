@@ -17,13 +17,15 @@ body {
 
 .product::before {
   content: "SALE";
-  background-color: orangered;
-  padding: 10px 15px;
-  font-size: 16px;;
+  text-transform: uppercase;
+  background-color: #ec2f2f;
+  color: #fff;
+  padding: 7px 15px;
+  font-size: 12px;;
   letter-spacing: 2px;
   font-weight: bold;
-  top: -20px;
-  left: -30px;
+  top: -17px;
+  left: -34px;
   position: absolute;
 }
 
