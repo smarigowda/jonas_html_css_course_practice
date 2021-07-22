@@ -11,6 +11,20 @@ body {
   border: 5px solid #000;
   width: 825px;
   margin: 0 auto;
+  position: relative;
+  margin-top: 30px;;
+}
+
+.product::before {
+  content: "SALE";
+  background-color: orangered;
+  padding: 10px 15px;
+  font-size: 16px;;
+  letter-spacing: 2px;
+  font-weight: bold;
+  top: -20px;
+  left: -30px;
+  position: absolute;
 }
 
 .product-title {
@@ -24,6 +38,34 @@ body {
 
 .product-image {
   display: block;
+}
+
+.product-colors .color {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.color1 {
+  background-color: #0004ff;  
+}
+
+.color2 {
+  background-color: #1fa0a0;  
+}
+
+.color3 {
+  background-color: #ff00b3;  
+}
+
+.color4 {
+  background-color: #ffae00;  
+}
+
+.color5 {
+  background-color: #ff0000;  
 }
 
 .price {
