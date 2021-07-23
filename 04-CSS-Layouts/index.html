@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Basic Language of the Web: HTML</title>
-    <link href="style.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <div class="container">
       <div class="main-header-container">
-        <header class="main-header">
+        <header class="main-header clearfix">
           <h1>📘 The Code Magazine</h1>
           <nav>
             <a href="./blog.html">Blog</a>
@@ -18,18 +18,22 @@
             <a href="#">Flexbox</a>
             <a href="#">CSS Grid</a>
           </nav>
+          <div class="clear"></div>
         </header>
       </div>
       <article>
         <header class="post-header">
           <h2>The Basic Language of the Web: HTML</h2>
           <img
+            class="author-image"
             src="img/laura-jones.jpg"
             alt="Laura laura-jones"
             width="50"
             height="50"
           />
-          <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+          <p id="author" class="related-author">
+            Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+          </p>
           <img
             src="img/post-img.jpg"
             alt="HTML Code on screen"
@@ -44,8 +48,8 @@
           the languages of the web.
         </p>
         <p>
-          In this post, let's focus on HTML. We will learn what HTML is all about,
-          and why you too should learn it.
+          In this post, let's focus on HTML. We will learn what HTML is all
+          about, and why you too should learn it.
         </p>
         <h3>What is HTML?</h3>
         <p>
@@ -56,8 +60,8 @@
         </p>
         <p>
           HTML consists of elements that describe different types of content:
-          paragraphs, links, headings, images, video, etc. Web browsers understand
-          HTML and render HTML code as websites.
+          paragraphs, links, headings, images, video, etc. Web browsers
+          understand HTML and render HTML code as websites.
         </p>
         <p>In HTML, each element is made up of 3 parts:</p>
         <ol>
@@ -75,8 +79,8 @@
         </p>
         <h3>Why should you learn HTML?</h3>
         <p>
-          There are countless reasons for learning the fundamental language of the
-          web. Here are 5 of them:
+          There are countless reasons for learning the fundamental language of
+          the web. Here are 5 of them:
         </p>
         <ul>
           <li>To be able to use the fundamental web dev language</li>
@@ -103,10 +107,12 @@
             <p class="related-author">By Jonas Schmedtmann</p>
           </li>
           <li>
-            <img src="img/related-2.jpg" width="75" height="75" alt="Lightning" /><a
-              href="#"
-              >The Unknown Powers of consists</a
-            >
+            <img
+              src="img/related-2.jpg"
+              width="75"
+              height="75"
+              alt="Lightning"
+            /><a href="#">The Unknown Powers of consists</a>
             <p class="related-author">By Jim Dillon</p>
           </li>
           <li>
@@ -120,7 +126,9 @@
           </li>
         </ul>
       </aside>
-      <footer><p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p></footer>
+      <footer>
+        <p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p>
+      </footer>
       <button class="like-button">❤️ Like</button>
     </div>
   </body>

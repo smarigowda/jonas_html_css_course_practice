@@ -12,7 +12,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 700px;
+  width: 900px;
   /* position: relative; */
 }
 
@@ -124,9 +124,16 @@ li:last-child {
   font-style: italic;
 }
 
+.author-image {
+  float: left;
+  margin-bottom: 20px;
+}
+
 .related-author {
+  float: left;
   font-size: 18px;
-  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 .related {
@@ -182,4 +189,18 @@ nav a:link:last-child {
   bottom: 50px;
   right: 50px;
   cursor: pointer;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
 }
