@@ -123,7 +123,6 @@ li:last-child {
 }
 
 .author-image {
-  float: left;
   margin-bottom: 20px;
 }
 
@@ -188,32 +187,3 @@ nav a:link:last-child {
   cursor: pointer;
 }
 
-h1 {
-  float: left;
-}
-
-nav {
-  float: right;
-}
-
-.clearfix::after {
-  content: '';
-  clear: both;
-  display: block;
-}
-
-article {
-  /* background-color: rgb(148, 163, 81); */
-  width: 731px;
-  float: left;
-}
-
-aside {
-  /* background-color: aquamarine; */
-  width: 433px;
-  float: right;
-}
-
-footer {
-  clear: both;
-}
