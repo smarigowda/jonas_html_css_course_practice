@@ -96,7 +96,6 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
-  margin-bottom: 15px;
 }
 
 ul,
@@ -122,14 +121,9 @@ li:last-child {
   font-style: italic;
 }
 
-.author-image {
-  margin-bottom: 20px;
-}
-
 .related-author {
   font-size: 18px;
   margin-left: 20px;
-  margin-top: 10px;
 }
 
 .related {
@@ -187,3 +181,8 @@ nav a:link:last-child {
   cursor: pointer;
 }
 
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
