@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: sans-serif;
@@ -40,14 +41,15 @@ body {
 
 .product-image {
   display: block;
+  width: 240px;
 }
 
 .product-colors .color {
   display: inline-block;
   padding: 10px;
   margin-left: 20px;
-  margin-bottom: 10px;
-  border-radius: 50%;
+  margin-top: 10px;
+  /* border-radius: 50%; */
 }
 
 .color1 {
@@ -72,10 +74,12 @@ body {
 
 .price {
   font-size: 25px;
+  display: inline-block;
 }
 
 .free {
   margin-bottom: 20px;
+  display: inline-block
 }
 .description {
   margin-bottom: 10px;
@@ -96,7 +100,6 @@ body {
 
 .details-title {
   text-transform: uppercase;
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -131,4 +134,35 @@ body {
 
 li {
   margin-bottom: 10px;
+}
+
+.image-container {
+  float: left;
+}
+
+.shipping-container {
+  width: 240px;
+  padding: 10px;
+  margin-left: 40px;;
+  float: left;
+}
+
+.product-details-container {
+  width: 240px;
+  padding: 10px;
+  float: right;
+}
+
+button {
+  clear: both;
+}
+
+.container {
+  background-color: rgb(42, 165, 63);
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
 }
